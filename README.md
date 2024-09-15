@@ -29,11 +29,11 @@ The notebook outlines the process of:
 6. **Model Saving**:  
    Trained models are saved using `pickle` for later use.
 
-##Results
+## Results
 
 The notebook concludes with predictions for future sales using the trained models. Performance metrics like RMSE and R² are provided to assess the model's accuracy.
 
-##Future Improvements
+## Future Improvements
 
 Include time-series forecasting models like ARIMA or Prophet for comparison.
 Integrate external features (e.g., weather, economic indicators) for improved predictions.
