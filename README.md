@@ -29,24 +29,12 @@ The notebook outlines the process of:
 6. **Model Saving**:  
    Trained models are saved using `pickle` for later use.
 
-## How to Run the Project
+##Results
 
-### Prerequisites
+The notebook concludes with predictions for future sales using the trained models. Performance metrics like RMSE and R² are provided to assess the model's accuracy.
 
-- Python 3.x
-- Jupyter Notebook
-- The following Python libraries:
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `seaborn`
-  - `scikit-learn`
-  - `xgboost`
-  - `statsmodels`
+##Future Improvements
 
-### Installation
-
-To install the required packages, run:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost statsmodels
+Include time-series forecasting models like ARIMA or Prophet for comparison.
+Integrate external features (e.g., weather, economic indicators) for improved predictions.
+Deploy the model using a web framework like Flask or create an interactive dashboard using Streamlit.
